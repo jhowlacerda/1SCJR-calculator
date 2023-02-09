@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.calculator {
+.calculadora {
     width: 450px;
     height: 600px;
     padding: 50px;
@@ -36,10 +36,13 @@ body {
 }
 
 .container-buttons {
-
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
 }
 
-.calculator button {
+.calculadora button {
     height: 65px;
     width: 65px;
 
